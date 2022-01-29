@@ -1,0 +1,19 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  xmlns="sap.m" controllerName="companyRepo.appName.controller.App" displayBlock="true">
+  <App>
+    <Page title="{i18n>Header}">
+      <content>
+        <List headerText="Product Details" items="{backend1>/Products}">
+          <items>
+            <ObjectListItem title="{backend1>ProductName}" 
+                            number="{backend1>ProductID}" 
+                            intro="{backend1>QuantityPerUnit}"/>
+          </items>
+        </List>
+      </content>
+    </Page>
+  </App>
+</mvc:View>
+
