@@ -1,2 +1,1 @@
-# SAPUI5Training
-UI5 Training
+Empty template for SAPUI5 development
