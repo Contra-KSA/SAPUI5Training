@@ -5,6 +5,10 @@
   <App>
     <Page title="{i18n>Header}">
       <content>
+        <Button
+            text="Default"
+            press="onPress"
+        />
         <List headerText="Product Details" items="{backend1>/Products}">
           <items>
             <ObjectListItem title="{backend1>ProductName}" 
