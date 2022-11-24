@@ -7,5 +7,10 @@
   "license": "ISC",
   "scripts": {
     "start": "ui5 serve -o index.html"
+  },
+  "dependencies": {
+    "@ui5/cli": "^2.14.7",
+    "express": "^4.17.3",
+    "http-proxy": "^1.18.1"
   }
 }

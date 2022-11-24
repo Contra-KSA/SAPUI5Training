@@ -2,7 +2,16 @@
   "_version": "0.0.1",
   "sap.app": {
     "id": "companyRepo.appName",
-    "type": "application"
+    "type": "application",
+    "dataSources": {
+      "backendService": {
+        "uri": "/Northwind/Northwind.svc",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    }
   },
   "sap.ui5": {
     "dependencies": {
@@ -20,6 +29,7 @@
       "id": "app"
     },
     "models": {
+      "backend1": { "dataSource": "backendService" },
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
