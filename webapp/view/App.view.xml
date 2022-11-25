@@ -5,15 +5,12 @@
   <App>
     <Page title="{i18n>Header}">
       <content>
-        <List headerText="Product Details" items="{backend1>/Products}">
+        <List headerText="Product Details" items="{/Products}">
           <items>
-            <ObjectListItem title="{backend1>ProductName}" 
-                            number="{backend1>ProductID}" 
-                            intro="{backend1>QuantityPerUnit}"/>
+            <ObjectListItem title="{ProductName}" number="{ProductID}" intro="{QuantityPerUnit}"/>
           </items>
         </List>
       </content>
     </Page>
   </App>
 </mvc:View>
-
