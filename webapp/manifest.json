@@ -5,7 +5,7 @@
     "type": "application",
     "dataSources": {
       "backendService": {
-        "uri": "/Northwind/Northwind.svc",
+        "uri": "/EBY/FRAP_WC",
         "type": "OData",
         "settings": {
           "odataVersion": "2.0"

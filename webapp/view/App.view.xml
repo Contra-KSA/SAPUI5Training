@@ -5,9 +5,9 @@
   <App>
     <Page title="{i18n>Header}">
       <content>
-        <List headerText="Product Details" items="{/Products}">
+        <List headerText="Product Details" items="{/HeaderSet}">
           <items>
-            <ObjectListItem title="{ProductName}" number="{ProductID}" intro="{QuantityPerUnit}"/>
+            <ObjectListItem title="{Docno}" number="{GrossAmount}" intro="{QuantityPerUnit}"/>
           </items>
         </List>
       </content>

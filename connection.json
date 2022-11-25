@@ -1,6 +1,6 @@
 {
   "Northwind": {
-    "target": "https://services.odata.org/V2",
-    "auth": "user:password"
+    "target": "http://sapdev.ebydos.local:50000/sap/opu/odata",
+    "auth": "kondrashov:oKE9A1Zp"
   }
 }
